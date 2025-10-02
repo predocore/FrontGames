@@ -1,0 +1,97 @@
+body {
+    background-color: #27282b; 
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6; 
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#genero-rpg h1 {
+    border-bottom: 3px solid #6a4494;
+    padding-bottom: 10px;
+    display: inline-block; 
+}
+
+.navbar {
+    background-color: #442068 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+}
+
+.nav-link {
+    color: #e0e0e0;
+    padding: 1rem !important;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #5a2c8a;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #343a40; 
+    border: 1px solid #495057; 
+    border-radius: 8px; 
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(106, 68, 148, 0.3);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #c0c0c0; 
+    font-size: 0.95rem;
+}
+
+.curiosidade-container {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    text-align: center; 
+}
+
+.btn-primary {
+    background-color: #6a4494; 
+    border-color: #6a4494;
+    font-weight: 600;
+    padding: 10px 25px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #8355b8;
+    border-color: #8355b8;
+}
+
+#texto-curiosidade {
+    color: #f0f0f0;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+#linhaInicio{
+    color:#8355b8
+}
