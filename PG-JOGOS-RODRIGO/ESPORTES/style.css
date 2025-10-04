@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://i.pinimg.com/originals/30/43/f5/3043f535ad31db8dd1c79063577fbed3.gif');
+    background-image: url('https://i.pinimg.com/originals/35/7f/f8/357ff8054b956e6e43aee217905defeb.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ h1, h2, h3 {
     color: #ffffff;
 }
 
-#genero-fps h1 {
+#genero-esportes h1 {
     border-bottom: 3px solid #37004f;
     padding-bottom: 10px;
     display: inline-block; 
@@ -114,6 +114,12 @@ ul.dropdown-menu {
     text-align: left; 
     color: #ffffff; 
     font-size: 0.95rem;
+}
+
+.curiosidade-container {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    text-align: center; 
 }
 
 .btn-primary {
