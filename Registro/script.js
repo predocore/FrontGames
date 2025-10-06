@@ -55,7 +55,7 @@ actionButton.addEventListener("click", (e) => {
             mensagem.style.color = "white";
 
             setTimeout(() => {
-                window.location.href = "C:/FE-2025/index.html";
+                window.location.href = "../index.html";
             }, 1500);
         } else {
             mensagem.textContent = "Login não efetuado!";
