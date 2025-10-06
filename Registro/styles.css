@@ -1,0 +1,83 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #37004f;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(160deg, #0e0b17, #0e0b10);
+    background: url(./assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    color: azure;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#actionButton {
+    margin-top: 5px;
+    color: aliceblue;
+    background-color: #37004f;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0a0a0a;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 16rem;
+    background-color: #37004f;
+}
+
+#alertButton {
+    margin-top: 3vh;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 4rem;
+    background: linear-gradient(145deg, #37004f, #0e0b17);
+}
+
+.namesite{
+    background: linear-gradient(145deg, #37004f, #0e0b17);
+    margin-top: 15px;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+#button {
+    color: rgb(247, 247, 242);
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #37004f;
+    background: none;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
