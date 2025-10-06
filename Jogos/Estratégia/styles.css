@@ -1,5 +1,5 @@
 body {
-    background-image: url('assets/ImagemBackgroundRpg.png');
+    background-image: url('assets/Gemini_Generated_Image_gmjrotgmjrotgmjr.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -109,6 +109,12 @@ h1, h2, h3 {
 .card-text {
     color: #ffffff; 
     font-size: 0.95rem;
+}
+
+.curiosidade-container {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    text-align: center; 
 }
 
 .btn-primary {
