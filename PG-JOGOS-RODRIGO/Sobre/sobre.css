@@ -1,0 +1,200 @@
+body {
+    background-image: url('assets/04.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000;
+
+}
+
+.conteudo-principal {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo preto com 50% de transparência */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.cabecalho {
+    background-color: #37004f;
+    border-bottom: 2px solid #A020F0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-navegacao {
+    font-style: italic;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    padding: 1rem 0;
+}
+
+.menu-navegacao a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 0 10px;
+}
+
+.menu-navegacao a:hover {
+    color: #A020F0;
+}
+
+.navbar {
+    background-color: #37004f !important;
+    border-bottom: 2px solid #A020F0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem !important;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #A020F0 !important;
+}
+
+.dropdown-menu {
+    background-color: #37004f;
+    border: none;
+    padding: 0;
+    left: auto !important;
+    right: 0 !important;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+    padding: 10px 15px;
+
+    border-bottom: 1px solid #000000;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #6a4494;
+    color: #ffffff;
+}
+
+.dropdown-toggle:focus,
+.dropdown-toggle:active,
+.dropdown-toggle[aria-expanded="true"] {
+    background-color: #37004f !important;
+    color: #A020F0 !important;
+    box-shadow: none !important;
+}
+
+.nav-item.dropdown.show {
+    background-color: #37004f;
+}
+
+.conteudo-principal {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 20px;
+    color: #FFFFFF;
+}
+
+.titulo-secao {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.secao-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-perfil {
+    background-color: #1a1a1a;
+    border: 1px solid #4B0082;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(110, 0, 103, 0.5);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-perfil:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(160, 32, 240, 0.4);
+}
+
+.card-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #A020F0;
+    margin-bottom: 15px;
+}
+
+.card-corpo h3 {
+    font-style: oblique;
+    color: #A020F0;
+    margin-bottom: 15px;
+}
+
+.funcao {
+    font-style: italic;
+    color: #999;
+}
+
+.rodape {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
