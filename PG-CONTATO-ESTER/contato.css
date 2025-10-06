@@ -71,6 +71,31 @@ main p {
     border-bottom: 3px solid #9a20b7;
 }
 
+.dropdown-menu {
+    background-color: #37004f !important;
+    border: none;
+    padding: 0;
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+    padding: 10px 15px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #6a4494 !important;
+    color: #ffffff !important;
+}
+
+.dropdown-item:active {
+    background-color: #6a008a !important;
+    color: #ffffff !important;
+}
+
 footer {
     background-color: #37004f !important;
     color: #f4f4f4;
