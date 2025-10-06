@@ -1,0 +1,148 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/2b/de/7d/2bde7d14133968f97d6c4dd898edb989.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #27282b;
+    
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6; 
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#genero-corrida h1 {
+    border-bottom: 3px solid #37004f;
+    padding-bottom: 10px;
+    display: inline-block; 
+}
+
+#genero-corrida p.lead {
+    color: #000000 !important;
+}
+
+.navbar {
+    background-color: #37004f !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-toggler {
+    border-color: #ffffff; 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+}
+
+.nav-link {
+    padding: 1rem !important;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #6a4494;
+}
+
+ul.dropdown-menu {
+    background-color: #37004f !important; 
+    border: none;
+    padding: 0;
+    box-shadow: none !important; 
+}
+
+.dropdown-item {
+    color: #ffffff !important; 
+    background-color: transparent; 
+    transition: background-color 0.2s ease;
+    padding: 10px 15px; 
+    border-bottom: 1px solid #000000; 
+}
+
+.dropdown-item:last-child {
+    border-bottom: none; 
+}
+
+.dropdown-item:hover, 
+.dropdown-item:focus {
+    background-color: #6a4494;
+    color: #ffffff !important;
+}
+
+.navbar-nav .dropdown-toggle {
+    background-color: transparent; 
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.card {
+    background-color: #010101; 
+    border: 3px solid #37004f; 
+    border-radius: 8px; 
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px #37004f;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.card-text {
+    text-align: left; 
+    color: #ffffff; 
+    font-size: 0.95rem;
+}
+
+.curiosidade-container {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    text-align: center; 
+}
+
+.btn-primary {
+    background-color: #37004f; 
+    border-color: #37004f;
+    font-weight: 600;
+    padding: 10px 25px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6a4494;
+    border-color: #6a4494;
+}
+
+#linhaInicio, #linhaFinal {
+    color: #000000;
+}
