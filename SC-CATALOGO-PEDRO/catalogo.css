@@ -26,6 +26,8 @@ p {
      font-family: FG;
 }
 
+/* navbar */
+
 .navbar {
     background-color: #37004f !important;
     padding-top: 0;
@@ -90,18 +92,21 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+
 
 }
 
+/* container */
+
 .container {
     width: 80%;
-    height: 100vh;
     background: linear-gradient(145deg, #0e0b17, #1c1530);
     font-family: FG;
     display: flex;
     margin:auto;
     border: solid 2px #1c1530;
+    flex-direction: column;
+    
 }
 
 .topo {
@@ -117,7 +122,76 @@ p {
     margin-left: 15rem;
 }
 
+/* catalogo */
+
+.catalogo {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  font-family: FG;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 18rem;
+  /* background-color: aqua; */
+}
+
+.boxC {
+  position: relative;
+  display: flex;
+  width: 15rem;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+  background: #c7d5e0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  height: 15rem;
+  border: 2px solid #1c1530;
+  box-shadow: 0 0 20px #1c1530;
+}
+
+.boxC img {
+  width: 15rem;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
+
+.info {
+  width: 0;
+  opacity: 0;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.boxC:hover {
+  width: 510px; /* aumenta o tamanho quando passa o mouse */
+}
+
+.boxC:hover .info {
+  width: 200px;
+  opacity: 1;
+}
 
 
 
+.boxC P, h3 {
+    color: #0e0b17;
+}
 
+.box-link {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit; /* Mantém a cor do texto do elemento pai */
+    display: block; /* Garante que o link ocupe o espaço necessário */
+}
+
+.box-link:hover .info {
+    width: 200px;
+    opacity: 1;
+}
+
+.box-link {
+    /* ...outras propriedades... */
+    cursor: pointer; /* Indica que é clicável */
+}

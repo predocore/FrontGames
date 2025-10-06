@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ac8c8c;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  width: 15rem;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+  background: #c7d5e0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  height: 15rem;
+  border: 2px solid #1c1530;
+  box-shadow: 0 0 20px #1c1530;
+}
+
+.box img {
+  width: 15rem;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
+
+.info {
+  width: 0;
+  opacity: 0;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  width: 400px; /* aumenta o tamanho quando passa o mouse */
+}
+
+.box:hover .info {
+  width: 200px;
+  opacity: 1;
+}
+
+/* teste abaixo */
+
+.boxC {
+  position: relative;
+  display: flex;
+  width: 200px;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+  background: #c7d5e0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  height: 15rem;
+  border: 2px solid #1c1530;
+  box-shadow: 0 0 20px #1c1530;
+}
+
+.boxC img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+}
+
+.info {
+  width: 0;
+  opacity: 0;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.boxC:hover {
+  width: 400px; /* aumenta o tamanho quando passa o mouse */
+}
+
+.boxC:hover .info {
+  width: 200px;
+  opacity: 1;
+}
+
